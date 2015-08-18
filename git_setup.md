@@ -58,18 +58,18 @@ To check the status:
 
 To track files:
 
-    git add -m <file name>
+    git add <file name>
 
 To commit files:
 
     git commit -m "add an informative note"
 
-or to commit all files
+or to stage all tracked files and commit all in one command:
 
     git commit -a -m "add informative note"
 
 Note if files have been changed they are not automatically staged and will not be included when using `git commit`.
-You need to use `git add` first and then then commit them.
+You need to use `git add` first and then then commit them (unless using the `commit -a option`).
 
 To push changes to GitHub:
 
@@ -82,3 +82,5 @@ To pull changes from GitHub:
 To get a summary of past commits:
 
     git log --pretty=oneline --abbrev-commit
+
+Note: You need to add the remote in each directory where you want to use git. Follow the instructions after you have created the new repository on github.com. 
