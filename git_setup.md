@@ -44,7 +44,7 @@ We can add additional repositories in the same ways but using different names.
 
 To delete unused remote repositories: 
 
-    git remote rm \<repistory name\>
+    git remote rm <repository name>
 
 **Simple Git workflow ouline**
 
@@ -58,7 +58,7 @@ To check the status:
 
 To track files:
 
-    git add -m \<file name\>
+    git add -m <file name>
 
 To commit files:
 
