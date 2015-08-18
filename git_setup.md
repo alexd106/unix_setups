@@ -1,4 +1,4 @@
-#**git set up on Mac OSX**
+#**Git setup and basic usage on Mac OSX**
 
 **configure the global settings**
 
