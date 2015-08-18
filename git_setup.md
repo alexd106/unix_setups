@@ -22,7 +22,7 @@ Need to do this for all devices
     ssh-keygen -t rsa -C "alexd106@gmail.com"
     pbcopy < ~/.ssh/id_rsa.pub
 
-Then add a new SSH key on github webpage <https://github.com/settings/ssh>
+Then paste a new SSH key on github webpage <https://github.com/settings/ssh>
 
 Test the SSH using
 
@@ -30,9 +30,11 @@ Test the SSH using
 
 Should receive the following:
 
-Hi alexd106! You've successfully authenticated, but GitHub does not provide shell access.
+     Hi alexd106! You've successfully authenticated, but GitHub does not provide shell access.
 
 **Connecting to Git remotes**
+
+In the directory which contains the files you wish to add
 
     git remote add origin git@github.com:alexd106/unix_setups.git
 
@@ -47,6 +49,8 @@ To delete unused remote repositories:
     git remote rm <repository name>
 
 **Simple Git workflow ouline**
+
+This assumes you have already used `git remote add` 
 
 To initialise a Git repository navigate to directory and use:
 
