@@ -40,7 +40,7 @@ Add this to your vimrc:
 
     execute pathogen#infect()
 
-Now any plugins you wish to install can be extracted to a subdirectory under `~/.vim/bundle` and they willbe added to the 'runtimepath'. Observe to install vim-densible:
+Now any plugins you wish to install can be extracted to a subdirectory under `~/.vim/bundle` and they willbe added to the 'runtimepath'. Observe to install vim-sensible:
 
     cd ~/.vim/bundle && \
     git clone git://github.com/tpope/vim-sensible.git
@@ -71,6 +71,6 @@ then in `~/.vimrc` add the following
 
     set colorscheme monokai
 
-**Misc Terminal preference**
+**Misc Terminal preferences**
 
 Change the default startup theme to homebrew, change the font to Lucida console pt 14 and opacity to 100%
